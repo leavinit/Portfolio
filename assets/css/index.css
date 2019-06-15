@@ -17,4 +17,9 @@ h1, h2, h3 {
     padding : .75em;
     margin: 0em;
     margin-bottom: 2em;
+    
+}
+body {
+    background-image: url("../images/dark-honeycomb.png") ;
+    
 }
