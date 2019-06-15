@@ -2,6 +2,7 @@
 
 //document is ready :)
 $(function() {
+    
     var links =
     [
         ["https://leavinit.github.io/GIFYouAKnuckleSammy", "Giphy.com API demo"],
@@ -14,10 +15,21 @@ $(function() {
     for (var i=0; i< links.length; i++){
         console.log(links[i][0]);
         console.log(links[i][1]);
-        newLink = "<li><div class='projectLink'><a href=" + links[i][0] + ">"+links[i][1]+"</a></li></div>";
+        newLink = 
+        "<a href=" + links[i][0] + "><li class='projectLink list-group-item'><div class='projectLinkDiv'>"+links[i][1]+"</div></li></a>";
         console.log(newLink);
         
         $("#projectLinks").append(newLink);
         
     }
+    $("#projectLinks li")
+    .hover(
+        function(){
+            // $(this).css("background","blue").css("color","white");
+            $(this).toggleClass("text-light bg-dark");
+        },
+        function(){
+            $(this).toggleClass("text-light bg-dark");
+            // $(this).css("background","white").css("color","blue");
+        });
 });
