@@ -16,8 +16,13 @@ h1, h2, h3 {
 .navigation{
     padding : .75em;
     margin: 0em;
+    margin-top : 2em;
     margin-bottom: 2em;
-    
+
+}
+.main-content{
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 body {
     background-image: url("../images/dark-honeycomb.png") ;
