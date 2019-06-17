@@ -16,7 +16,7 @@ h1, h2, h3 {
 .navigation{
     padding : .75em;
     margin: 0em;
-    /* margin-top : 2em; */
+    margin-top : 2em;
     margin-bottom: 2em;
     background : linear-gradient(#343a40 40%, #343a401f) !important;
 }
@@ -42,6 +42,6 @@ footer{
   
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .main-content {
-    padding-top: 502px;
+    padding-top: 3em;
   }
    

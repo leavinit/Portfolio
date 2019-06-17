@@ -12,7 +12,7 @@ $(function() {
         ["https://leavinit.github.io/TriviaGame", "Trivia Game","./assets/images/TriviaGame.png"],
         ["https://github.com/leavinit/bamazon", "Bamazon CLI Database Interface demo",
         "<iframe class='image-fluid img-thumbnail' src='https://drive.google.com/file/d/1FcI4E_1oB2x9iTKMIUmAWhG1dSYJI1AO/preview' style='width:100%;height:auto;'></iframe>"],
-        ["https://github.com/leavinit/burger#burger-app-", "Burger App"],
+        ["https://github.com/leavinit/burger#burger-app-", "Burger App","./assets/images/Burgers.png"],
     ]
     for (var i=0; i< links.length; i++){
         console.log(links[i][0]);
@@ -63,12 +63,14 @@ var sticky = header.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
+    
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
     header.style.marginTop = "0em";
     header.style.zIndex = "1000";   
   } else {
     header.classList.remove("sticky");
+    header.style.marginTop = "2em";
     // header.style.paddingTop = ".75em";
   }
 }
