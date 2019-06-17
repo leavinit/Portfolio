@@ -18,6 +18,7 @@ h1, h2, h3 {
     margin: 0em;
     margin-top : 2em;
     margin-bottom: 2em;
+    background : linear-gradient(#343a40 40%, #343a401f) !important;
 
 }
 .main-content{
@@ -28,3 +29,15 @@ body {
     background-image: url("../images/dark-honeycomb.png") ;
     
 }
+
+footer{
+    padding-top: .5em;
+    margin : 0em;
+}
+
+/* sticky header css */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
