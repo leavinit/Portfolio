@@ -1,6 +1,8 @@
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
+    line-height: 1.4;
+    font-size: 20px;
 }
 
 h1, h2, h3 {
@@ -10,8 +12,12 @@ h1, h2, h3 {
 .jumbotron{
     padding : 1em;
     margin: 0em;  
-    background-color: #457B8C;
+    /* background-color: #457B8C; */
+    background : linear-gradient(#457B8C 40%, #343a401f) !important;
     border-radius: 0px;
+}
+#nameDiv{
+    padding-left: 1em;
 }
 .navigation{
     padding : .75em;
@@ -44,4 +50,23 @@ footer{
 .sticky + .main-content {
     padding-top: 3em;
   }
-   
+
+/* PORTFOLIO SPECIFIC CSS */
+.projectLink{
+    padding-bottom: 2em;
+
+}
+
+#projectLinks > a{
+    /* padding : 1em; */
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.linksDivs{
+    padding : 1em;
+}
+/* CONTACTS SPECIFIC CSS */
+#formDiv {
+    padding-top: 2em;
+}

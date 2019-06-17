@@ -6,19 +6,19 @@ $(function() {
     //links for portfolio page (should get moved to a data file and loaded seperately)
     var links =
     [
+        ["https://leavinit.github.io/TriviaGame", "Trivia Game","./assets/images/TriviaGame.png"],
         ["https://leavinit.github.io/GIFYouAKnuckleSammy", "Giphy.com API demo","./assets/images/GIFYouAKnuckleSammy.png"],
         ["https://leavinit.github.io/WordGuessGame", "Word Guess Game","./assets/images/WordGuessGame.png"],
-        ["https://leavinit.github.io/unit-4-game", "StarWars Game","./assets/images/StarWarsRPG.png"],
-        ["https://leavinit.github.io/TriviaGame", "Trivia Game","./assets/images/TriviaGame.png"],
+        ["https://github.com/leavinit/burger#burger-app-", "Burger App","./assets/images/Burgers.png"],
         ["https://github.com/leavinit/bamazon", "Bamazon CLI Database Interface demo",
         "<iframe class='image-fluid img-thumbnail' src='https://drive.google.com/file/d/1FcI4E_1oB2x9iTKMIUmAWhG1dSYJI1AO/preview' style='width:100%;height:auto;'></iframe>"],
-        ["https://github.com/leavinit/burger#burger-app-", "Burger App","./assets/images/Burgers.png"],
+        ["https://leavinit.github.io/unit-4-game", "StarWars Game","./assets/images/StarWarsRPG.png"],
     ]
     for (var i=0; i< links.length; i++){
         console.log(links[i][0]);
         console.log(links[i][1]);
         newLink = 
-        "<a href=" + links[i][0] + "><li class='projectLink list-group-item'><div id='link"+i +"' class='projectLinkDiv'>"+links[i][1]+"</div></li></a>";
+        "<a href=" + links[i][0] + "><li class='projectLink list-group-item'><div id='link"+i +"' class='linksDivs'>"+links[i][1]+"</div></li></a>";
         console.log(newLink);
         $("#projectLinks").append(newLink);
 
