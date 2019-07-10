@@ -6,6 +6,7 @@ $(function() {
     //links for portfolio page (should get moved to a data file and loaded seperately)
     var links =
     [
+        ["https://github.com/adj-dev/final-project#final-project-prota","Prota (U of M Bootcamp Final Project)","./assets/images/Prota.png"],
         ["https://leavinit.github.io/TriviaGame", "Trivia Game","./assets/images/TriviaGame.png"],
         ["https://leavinit.github.io/GIFYouAKnuckleSammy", "Giphy.com API demo","./assets/images/GIFYouAKnuckleSammy.png"],
         ["https://leavinit.github.io/WordGuessGame", "Word Guess Game","./assets/images/WordGuessGame.png"],
